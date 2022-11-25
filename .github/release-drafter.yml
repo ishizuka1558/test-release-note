@@ -1,4 +1,20 @@
+name-template: 'v$RESOLVED_VERSION 🌈'
 template: |
   ## What’s Changed
 
   $CHANGES
+
+autolabeler:
+  - label: 'chore'
+    files:
+      - '*.md'
+    branch:
+      - '/docs{0,1}\/.+/'
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
+  - label: 'feature'
+    branch:
+      - '/feature\/.+/'
