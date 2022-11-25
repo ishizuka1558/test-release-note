@@ -4,4 +4,4 @@
 
 - auto labelerによるPRへの自動ラベル付け
 - push, merge時にRelease NoteのDraftを自動作成
-- draft release note内で変更のカテゴイズを追加
+- draft release note内で変更のカテゴライズを追加
