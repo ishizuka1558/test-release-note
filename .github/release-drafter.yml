@@ -20,3 +20,14 @@ autolabeler:
   - label: 'feature'
     branch:
       - '/feature\/.+/'
+
+categories:
+  - title: '🚀 Features'
+    label: 'feature'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: 'Document'
+    label: 'chore'
